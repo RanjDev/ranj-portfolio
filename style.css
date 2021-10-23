@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+:root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(33, 37, 41) !important;
+}
+.navbar-custom {
+  height: 60px;
+  transition: 0.3s;
+}
+
+.navbar-custom:hover {
+  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.37);
+}
+
+.custom-row {
+  color: rgba(240, 248, 255, 0.644);
+  transition: 0.3s;
+  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.589);
+}
+
+.custom-row:hover {
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.568);
+}
+
+.custom-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-image {
+  width: 400px;
+  height: 256px;
+  background-image: url(assets/img1.png);
+  /* box-shadow: 0 0 8px 8px rgb(33, 37, 41) inset; */
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.custom-image:hover {
+  background-image: url(assets/img2.png);
+  transform: scale(1.05);
+  overflow: hidden;
+}
+
+.hero {
+  height: calc(100vh - 60px);
+  /* background-color: rgb(33, 37, 41); */
+}
+
+.custom-bg {
+  background-color: rgba(255, 255, 255, 0.897) !important;
+  font-weight: bold;
+}
+
+.card {
+  transition: ease-in 0.3s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+.cus-img-card {
+  filter: grayscale(60%);
+}
+
+.cus-img-card:hover {
+  filter: none;
+}
+
+#contact-form {
+  width: 50%;
+  /* display: flex;
+  justify-content: center; */
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  background: rgb(33, 37, 41);
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background: rgb(33, 37, 41);
+  color: aliceblue;
+}
+.sel {
+  background-color: rgb(33, 37, 41) !important;
+  color: aliceblue;
+}
+
+@media only screen and (max-width: 576px) {
+  #contact-form {
+    width: 80%;
+  }
+  :root {
+    font-size: 10px;
+  }
+  .navbar-custom {
+    height: 36px;
+  }
+  .hero {
+    height: calc(100vh - 36px);
+  }
+}
