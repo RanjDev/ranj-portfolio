@@ -39,19 +39,19 @@ body {
 }
 
 .custom-image {
-  width: 400px;
-  height: 256px;
+  width: 200px;
+  height: 128px;
   background-image: url(assets/img1.png);
   /* box-shadow: 0 0 8px 8px rgb(33, 37, 41) inset; */
   background-size: cover;
   background-position: center;
-  transition: 0.5s;
+  transition: all 0.7s;
   overflow: hidden;
 }
 
 .custom-image:hover {
   background-image: url(assets/img2.png);
-  transform: scale(1.05);
+
   overflow: hidden;
 }
 
@@ -66,18 +66,31 @@ body {
 }
 
 .card {
+  position: relative;
   transition: ease-in 0.3s;
+  overflow: hidden;
 }
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
-
 .cus-img-card {
-  filter: grayscale(60%);
+  transition: all 0.5s;
 }
 
 .cus-img-card:hover {
-  filter: none;
+  filter: opacity(20%);
+}
+.hide {
+  display: none;
+}
+
+.cus-img-card:hover + .hide {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: black;
+  font-weight: 700;
 }
 
 #contact-form {
@@ -114,5 +127,18 @@ input[type="password"]:focus {
   }
   .hero {
     height: calc(100vh - 36px);
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .custom-image {
+    width: 300px;
+    height: 192px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .custom-image {
+    width: 400px;
+    height: 256px;
   }
 }
