@@ -115,6 +115,18 @@ input[type="password"]:focus {
   color: aliceblue;
 }
 
+.personal-link {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s;
+}
+.personal-link:hover {
+  color: lightblue;
+}
+
 @media only screen and (max-width: 576px) {
   #contact-form {
     width: 80%;
