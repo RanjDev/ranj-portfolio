@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       dropShadow: {
         white: "0 0 1px #fff",
+        black: "0 0 1px #000",
       },
       spacing: {
         128: "32rem",
@@ -16,6 +17,9 @@ module.exports = {
       //     "0%": { transform: "translateX(500px)" },
       //     "100%": { transform: "translateX(0)" },
       //   },
+      // },
+      // transitionProperty: {
+      //   height: "height",
       // },
     },
   },

@@ -62,6 +62,8 @@ export default function NormalNavbar() {
                   </div>
                 </div>
               </div>
+              {/* 
+                CV Button for later maybe
               <div className="p-4">
                 <button
                   onClick={() => {}}
@@ -73,7 +75,7 @@ export default function NormalNavbar() {
                 >
                   CV
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
 

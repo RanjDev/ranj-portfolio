@@ -40,9 +40,6 @@ export default function Work() {
   return (
     <div className="h-auto w-screen">
       <h1 className="text-center mb-8 text-xl md:text-3xl">Projects</h1>
-      <h1 className="text-center text-2xl text-lime-500">
-        Add hover effect, dsipaly desc only on hoiver
-      </h1>
       <div className="flex flex-wrap justify-center items-center gap-8 px-8">
         {workData.map((datum) => {
           return <WorkCard info={datum} />;

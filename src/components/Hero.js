@@ -13,20 +13,24 @@ export default function Hero() {
             with a <strong>minimalistic interactive</strong> design.
           </p>
           <ul className="flex flex-wrap gap-1 text-xs xl:text-sm">
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               Node.js
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               ReactJs
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               TailwindCss
             </li>
           </ul>
         </div>
         <div className="absolute z-0 opacity-50 h-3/5 rounded sm:h-4/6 md:relative md:opacity-100 md:h-3/6 lg:h-3/5">
           {/*eslint-disable-next-line jsx-a11y/img-redundant-alt*/}
-          <img src={IMG} alt="my personal photo" className="h-full  rounded" />
+          <img
+            src={IMG}
+            alt="my personal photo"
+            className="h-full rounded filter grayscale "
+          />
         </div>
       </div>
     </div>
