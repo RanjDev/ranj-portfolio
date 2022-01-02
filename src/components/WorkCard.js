@@ -11,7 +11,7 @@ export default function WorkCard({ info }) {
       <div className="flex flex-col relative ">
         <a
           className="hidden lg:block absolute self-center z-10 text-lime-500 border border-lime-500 m-2 py-2 px-4 rounded text-xl
-         hover:bg-lime-500 hover:text-white active:bg-lime-900 font-mono transition-all duration-300 transform -translate-y-16 group-hover:translate-y-0
+         hover:bg-lime-500 hover:text-white active:bg-lime-900 font-mono transition-all duration-300 transform -translate-y-20 group-hover:translate-y-0
          filter drop-shadow-black"
           href={info.link}
           target="_blank"

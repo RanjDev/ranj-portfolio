@@ -20,15 +20,15 @@ function App() {
         <Hero />
       </div>
 
-      <div className="min-h-screen scroll-mt-20" id="work">
+      <div className="min-h-screen scroll-mt-20 mb-20" id="work">
         <Work />
       </div>
 
-      <div className="min-h-screen scroll-mt-20" id="experience">
+      <div className="min-h-screen scroll-mt-20 mb-20" id="experience">
         <Experience />
       </div>
 
-      <div className="min-h-screen scroll-mt-20" id="skills">
+      <div className="min-h-screen scroll-mt-20 mb-20" id="skills">
         <Skills />
       </div>
 

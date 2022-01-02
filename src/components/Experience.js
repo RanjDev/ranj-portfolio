@@ -16,28 +16,28 @@ export default function Experience() {
           </p>
           <h2>Frontend Technologies:</h2>
           <ul className="flex flex-wrap gap-1 text-xs">
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               HTML
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               CSS
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               ReactJs
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               TailwindCss
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               Bootstrap
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               Redux Toolkit
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               RTK Query
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               React Router
             </li>
           </ul>
@@ -54,22 +54,22 @@ export default function Experience() {
           </p>
           <h2>Frontend Technologies:</h2>
           <ul className="flex gap-1 flex-wrap text-xs">
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               Node.js
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               Express
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               MongoDB
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               Postman
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               RESTful API
             </li>
-            <li className="border rounded p-1 hover:bg-white hover:border-slate-900 hover:text-slate-900 transition-all duration-300">
+            <li className="border rounded p-1 hover:text-lime-500 hover:border-lime-500 transition-all duration-300">
               JWT
             </li>
           </ul>
