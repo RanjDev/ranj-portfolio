@@ -3,8 +3,8 @@ import GroupHackathon from "../assets/_1010419.JPG";
 
 export default function Experience() {
   return (
-    <div className="min-h-screen w-screen px-8">
-      <h1 className="text-center mb-8 text-2xl">Experience</h1>
+    <div className="min-h-screen w-screen px-8 ">
+      <h1 className="text-center mb-8 text-2xl text-lime-500">Experience</h1>
       <div className="flex flex-col justify-center items-center gap-8 w-full p-8">
         <div className=" px-8 w-10/12">
           <h1 className="text-xl">Frontend</h1>

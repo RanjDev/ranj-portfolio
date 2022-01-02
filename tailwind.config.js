@@ -9,9 +9,9 @@ module.exports = {
       spacing: {
         128: "32rem",
       },
-      // animation: {
-      //   "animate-in": "animateIn 2s ease-in-out forwards",
-      // },
+      animation: {
+        "spin-slow": "spin 3s linear infinite",
+      },
       // keyframes: {
       //   animateIn: {
       //     "0%": { transform: "translateX(500px)" },
