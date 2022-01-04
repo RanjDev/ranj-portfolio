@@ -16,7 +16,7 @@ export default function WorkCard({ info }) {
        before:bg-gradient-to-b before:from-slate-900 before:via-slate-900 before:to-lime-800 
      "
     >
-      <div className="bg-slate-900 rounded z-30 p-1">
+      <div className="flex flex-col bg-slate-900 rounded z-30 p-1">
         <div className="flex flex-col relative ">
           <a
             className="hidden lg:block absolute self-center z-10 text-lime-500 border border-lime-500 m-2 py-2 px-4 rounded text-xl

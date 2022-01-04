@@ -6,7 +6,7 @@ export default function Experience() {
     <div className="min-h-screen w-screen px-8 ">
       <h1 className="text-center mb-8 text-2xl text-lime-500">Experience</h1>
       <div className="flex flex-col justify-center items-center gap-8 w-full p-8">
-        <div className=" px-8 w-10/12">
+        <div className=" w-10/12">
           <h1 className="text-xl">Frontend</h1>
           <p className="text-sm">
             + Experience in building responsive and interactive websites. I am
@@ -42,7 +42,7 @@ export default function Experience() {
             </li>
           </ul>
         </div>
-        <div className=" w-10/12 px-8">
+        <div className=" w-10/12">
           <h1>Backend</h1>
           <p className="text-sm">
             + Experience in building secure server side application with
@@ -74,7 +74,7 @@ export default function Experience() {
             </li>
           </ul>
         </div>
-        <div className="px-8 w-10/12 ">
+        <div className="w-10/12 ">
           <h1>Hackathon</h1>
           <div className="w-full flex flex-wrap justify-between items-center ">
             <div className="md:w-1/3 lg:w-2/5">

@@ -5,14 +5,14 @@ export default function Skills() {
   return (
     <div className="w-screen flex flex-col items-center ">
       <div className="flex flex-col w-auto ">
-        <div className="flex gap-2 text-center mb-8 text-xl md:text-3xl text-white">
-          <ImQuotesLeft className="text-lime-500 text-lg" />{" "}
+        <div className="flex gap-2 text-center mb-8 text-xl md:text-3xl text-white p-4">
+          <ImQuotesLeft className="text-lime-500 text-lg" />
           <h1>I have a very particular set of soft skills</h1>
           <div className="self-end">
             <ImQuotesRight className="text-lime-500 text-lg" />
           </div>
         </div>
-        <h1 className="text-center mb-8 text-lg md:text-xl self-end">
+        <h1 className="text-center mb-8 text-lg md:text-xl self-end p-2">
           -Not Liam Neeson
         </h1>
       </div>
