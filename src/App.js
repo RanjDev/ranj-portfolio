@@ -16,7 +16,7 @@ function App() {
 
       <Links />
 
-      <div className=" scroll-mt-16 mb-20">
+      <div className="scroll-mt-16 mb-20">
         <Hero />
       </div>
 

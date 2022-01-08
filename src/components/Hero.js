@@ -24,12 +24,12 @@ export default function Hero() {
             </li>
           </ul>
         </div>
-        <div className=" w-auto rounded sm:w-5/6  md:w-3/6 lg:w-2/5">
+        <div className="w-auto rounded sm:w-5/6  md:w-3/6 lg:w-2/5">
           {/*eslint-disable-next-line jsx-a11y/img-redundant-alt*/}
           <img
             src={IMG}
             alt="my personal photo"
-            className="h-full rounded filter grayscale "
+            className="rounded filter grayscale "
           />
         </div>
       </div>
