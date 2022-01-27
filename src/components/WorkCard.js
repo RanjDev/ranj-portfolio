@@ -1,12 +1,6 @@
 import React from "react";
 import { FiGithub } from "react-icons/fi";
 
-/* Border effect I was trying to do
-  before:content-[''] before:bg-gradient-to-tr before:from-lime-800 before:to-transparent before:w-[150%] before:h-[150%] before:absolute before:animate-spin-slow
-     before:z-20
-     after:content-[''] after:w-4/6 after:sm:w-3/6 after:md:w-2/6 after:lg:w-1/4 after:xl:w-1/5 after:absolute after:h-5/6 after:bg-slate-900 after:z-30
-*/
-
 export default function WorkCard({ info }) {
   return (
     <div
@@ -14,6 +8,7 @@ export default function WorkCard({ info }) {
       group transition-all duration-300 overflow-hidden
       before:content-[''] before:absolute before:z-10 before:-top-1/3 before:-left-12 before:w-[150%] before:h-[150%] before:animate-spin-slow
        before:bg-gradient-to-b before:from-slate-900 before:via-slate-900 before:to-lime-800 
+       child
      "
     >
       <div className="flex flex-col bg-slate-900 rounded z-30 p-1">

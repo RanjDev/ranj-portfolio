@@ -4,10 +4,10 @@ import { FiLinkedin, FiCodepen, FiGithub } from "react-icons/fi";
 export default function Footer() {
   return (
     <div>
-      <div className="bg-lime-900 flex flex-col justify-center items-center h-12">
+      <div className="bg-lime-900 flex flex-col justify-center items-center h-12 ">
         <div className="flex md:hidden p-2">
           <ul
-            className="flex gap-8 text-xl text-white
+            className="flex gap-8 text-xl text-white 
         "
           >
             <a
