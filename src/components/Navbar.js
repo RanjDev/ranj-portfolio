@@ -62,20 +62,21 @@ export default function NormalNavbar() {
                   </div>
                 </div>
               </div>
-              {/* 
-                CV Button for later maybe
+
               <div className="p-4">
-                <button
-                  onClick={() => {}}
-                  className="border border-orange-700 text-orange-700 py-1 px-4 text-center text-lg font-semibold tracking-wider rounded
+                <a
+                  href="https://drive.google.com/file/d/1QdkdgrQS8Zhwu9jtnXNaOMsFu69pGTrP/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="border border-lime-500 text-lime-500 py-2 px-6 text-center text-lg font-semibold tracking-wider rounded
                   transition-all duration-300
-                   hover:border-slate-900 hover:text-slate-900 hover:bg-orange-700
-                  active:bg-orange-900
+                   hover:border-slate-900 hover:text-slate-900 hover:bg-lime-500
+                  active:bg-lime-700
                   "
                 >
                   CV
-                </button>
-              </div> */}
+                </a>
+              </div>
             </div>
           </div>
 
