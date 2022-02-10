@@ -65,16 +65,16 @@ export default function NormalNavbar() {
 
               <div className="p-4">
                 <a
-                  href="https://drive.google.com/file/d/1QdkdgrQS8Zhwu9jtnXNaOMsFu69pGTrP/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1e64esh0C9lSrc9T_yVNlUnSBFBQBFzH7/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
-                  className="border border-lime-500 text-lime-500 py-2 px-6 text-center text-lg font-semibold tracking-wider rounded
+                  className="border border-lime-500 text-lime-500 py-2 px-4 text-center text-lg font-semibold tracking-wider rounded
                   transition-all duration-300
                    hover:border-slate-900 hover:text-slate-900 hover:bg-lime-500
                   active:bg-lime-700
                   "
                 >
-                  CV
+                  View CV
                 </a>
               </div>
             </div>

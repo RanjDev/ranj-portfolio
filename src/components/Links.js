@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { FiLinkedin, FiCodepen, FiGithub } from "react-icons/fi";
 import { gsap } from "gsap";
+import { SiLeetcode } from "react-icons/si";
 
 // The idea for this was taken from Brittany Chiang
 // The code is mine however, I just took the inspiration for the listing of her links
@@ -43,6 +44,14 @@ export default function Links() {
             className="filter hover:drop-shadow-white transition-all duration-300 child"
           >
             <FiLinkedin />
+          </a>
+          <a
+            href="https://leetcode.com/ranj997/"
+            target="_blank"
+            rel="noreferrer"
+            className="filter hover:drop-shadow-white transition-all duration-300 child"
+          >
+            <SiLeetcode />
           </a>
           <a
             href="https://codepen.io/DevVet9"
