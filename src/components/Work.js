@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import WorkCard from "./WorkCard";
 import Koga from "../assets/koga.PNG";
 import Daroon from "../assets/daroon.PNG";
+import Server from "../assets/server.png";
 import Landing from "../assets/landing.PNG";
 import Cool from "../assets/cool.PNG";
 import { gsap } from "gsap";
@@ -38,15 +39,22 @@ export default function Work() {
       name: "Koga",
       desc: "An ecommerce fullstack application, that was built entirely by me for the Bit Bootcamp capstone project.",
       image: Koga,
-      technologies: ["ReactJs", "Node.js", "TailwindCss"],
+      technologies: ["ReactJs", "Node.js", "Tailwind CSS"],
       link: "https://github.com/RanjDev/ecommerce",
     },
     {
       name: "Daroon",
       desc: "A hackathon winning project we built with my team that focuses on providing help for people who need mental support.",
       image: Daroon,
-      technologies: ["ReactJs", "Node.js", "TailwindCss"],
+      technologies: ["ReactJs", "Node.js", "Tailwind CSS"],
       link: "https://github.com/RanjDev/daroon",
+    },
+    {
+      name: "Backend Server",
+      desc: "A full backend server with authentication, authorization, and JWTs. ",
+      image: Server,
+      technologies: ["Node.js", "Express Js", "MongoDB"],
+      link: "https://github.com/RanjDev/simple-backend-app",
     },
     {
       name: "Landing Page",
