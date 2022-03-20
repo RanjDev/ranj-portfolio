@@ -65,7 +65,7 @@ export default function NormalNavbar() {
 
               <div className="p-4">
                 <a
-                  href="https://drive.google.com/file/d/1e64esh0C9lSrc9T_yVNlUnSBFBQBFzH7/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1v_BuGoLt5ZmUssPjtiuz6kpAPdn1syNY/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="border border-lime-500 text-lime-500 py-2 px-4 text-center text-lg font-semibold tracking-wider rounded
